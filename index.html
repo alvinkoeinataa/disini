@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to disini.id</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="disney/dia.png" alt="" width="120" height="45" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="./pages/shop.html"><strong>SHOP</strong> </a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="./pages/trending.html"><strong>TRENDING</strong> </a>
+            </li>
+
+            <li class="nav-item px-2">
+              <a class="nav-link" href="./pages/movies.html"><strong>MOVIES</strong> </a>
+            </li>
+
+            <li class="nav-item px-2">
+              <a class="nav-link" href="./pages/park.html" tabindex="-1"><strong>PARKS</strong> </a>
+            </li>
+
+            <li class="nav-item px-2">
+              <a class="nav-link" href="./pages/more.html" tabindex="-1"><strong>MORE</strong> </a>
+            </li>
+
+            <li class="nav-item px-2">
+              <a class="nav-link" href="./pages/contact.html" tabindex="-1"><strong>CONTACT US</strong> </a>
+            </li>
+          </ul>
+
+          <!-- Si login + modal -->
+          <form class="d-flex">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#my-modal">Login</button>
+
+                  <div class="modal fade" id="my-modal" tabindex="-1" aria-labelledby="my-modal-label" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <div class="container">
+                            <h5 class="modal-title col-4 mx-auto" id="my-modal-label">Disney Account</h5>
+                          </div>
+
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body text-center">
+                          <label class="pb-4"> Enter your Email Address</label>
+                          <br />
+                          <input type="email" placeholder="Email address" style="width: 300px" />
+                          <br /><br />
+                          <button class="col-8 btn btn-primary" type="button">Continue</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Gambar utama -->
+    <div class="container-fluid">
+      <div class="row no-gutter mb-4">
+        <div class="col-md-12 black text-white d-flex justify-content-center align-items-center text-center">
+          FILM DAN SERIAL SERU HANYA DI
+          <img class="img-fluid" src="disney/logod.png" alt="" />
+        </div>
+
+        <div class="col-md-12">
+          <img class="img-fluid" src="disney/gog.png" alt="" />
+        </div>
+
+        <div class="col-md-12 black text-white d-flex justify-content-center align-items-center">
+          <h3 class="kecil1">Dapatkan berita terbaru film Disney, aplikasi dan lainnya!</h3>
+          <button onclick="alert('Silahkan login terlebih dahulu')" class="btn btn-primary mx-4">DAFTAR SEKARANG</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 Gambar -->
+    <div class="container-fluid p-0">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
+          <div class="card">
+            <img src="disney/p1.png" class="card-img-top px-0" alt="..." />
+            <div class="card-body">
+              <p class="card-text">DISNEY'S 100TH ANNIVERSARY YOU MADE THIS DREAM COME TRUE</p>
+              <a href="#" class="btn">FIND OUT MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
+          <div class="card">
+            <img src="disney/p2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">BERSIAP UNTUK ONE LAST RIDE DENGAN MOBILE DAN VIDEO CALL WALLPAPER TERINSPIRASI DARI MARVEL STUDIOS' GUARDIAN OF GALAXY VOL 3</p>
+              <a href="#" class="btn">DOWNLOAD SEKARANG</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
+          <div class="card">
+            <img src="disney/p3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">STAR WARS: THE MANDALORIAN SEASON 3 NOW ON DISNEY+ HOTSTAR</p>
+              <a href="#" class="btn">STREAM SEKARANG</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
+          <div class="card">
+            <img src="disney/p4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">FROM 24 MARCH TO 31 JULY 2023. COME VISIT THE DISNEY 100 VILLAGES, A POP-UP EXHIBITION AT ASIATIQUE THE RIVERFRONT, BANGKOK, THAILAND</p>
+              <a href="#" class="btn">GET TICKETS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video pilihan -->
+    <div class="container-fluid grey pb-5">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="col-md-12 text-center mb-4">
+            <h2>VIDEOS PILIHAN</h2>
+            <h4>Berikut adalah trailer dan videos terbaru yang kamu harus tonton</h4>
+          </div>
+
+          <!-- 2 video -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <div class="card">
+                  <div class="ratio ratio-16x9"><iframe width="640" height="360" src="https://secure.disney.com/embed/5f6c0b3fbc52aebd6b4f2a72?domain=video.disney.id" allowfullscreen frameborder="0"></iframe><br /></div>
+
+                  <div class="card-body">
+                    <h5 class="card-title pb-2">THE LITTLE MERMAID OFFICIAL TRAILER</h5>
+                    <h6>Watch and you'll see.</h6>
+                    <h6>Some day I'll be,</h6>
+                    <h6>Part of your world</h6>
+                    <br />
+                    <h6>Watch the new thrailer for #TheLittle Mermaid and see the movie in cinemas</h6>
+                    <br />
+                    <h6>FEATURED VIDEO</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="ratio ratio-16x9"><iframe width="640" height="360" src="https://secure.disney.com/embed/5f66f03d602b7ebd6b4f2a72?domain=video.disney.id" allowfullscreen frameborder="0"></iframe><br /></div>
+
+                  <div class="card-body">
+                    <h5>HAUNTED MANSION OFFICIAL TEASER TRAILER</h5>
+                    <h6>Home is where the haunt is. Watch the brand-new teaser trailer for @HauntedMansionm appearing only in cinemas July 2023</h6>
+                    <br /><br /><br /><br /><br />
+                    <h6>FEATURED VIDEO</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Whats new Biru Wakanda Forever -->
+    <div class="container-fluid blue text-white">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="col-md-12 text-center mb-5">
+            <h2>What's new to Disney+</h2>
+          </div>
+
+          <!-- 2 video -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mb-2 pb-4">
+                <div class="card">
+                  <div class="ratio ratio-16x9">
+                    <img src="disney/wakanda.png" alt="" />
+                  </div>
+
+                  <div class="card-body forever">
+                    <h5 class="card-title">Black Panther : Wakanda Forever</h5>
+                    <h6>
+                      Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect the kingdom of Wakanda from intervening world powers in the wake of King T'Challa's death. As the Wakandans strive to embrace their next chapter,
+                      the heroes must band together.
+                    </h6>
+
+                    <br />
+                    <a href=""><h6>STREAMING SEKARANG</h6></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 pb-5">
+                <div class="card">
+                  <div class="ratio ratio-16x9">
+                    <img src="disney/gan.png" alt="" />
+                  </div>
+
+                  <div class="card-body forever">
+                    <h5>Gannibal</h5>
+                    <h6>
+                      After causing a major incident, police officer Daigo Agawa takes his wife daughter to live in the remote mountain village of Kuga. Despite seeming a perfect place to recover from the ordeal, a missing persons case
+                      remains unsolved of the previous officer posted there.
+                    </h6>
+                    <br />
+                    <a href=""><h6>STREAMING SEKARANG</h6></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Now streaming on disney+ Hotstar-->
+    <div class="container-fluid blue text-white pb-5">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="col-md-12 text-center mb-4">
+            <h2>Now Streaming on Disney+ Hotstar</h2>
+            <p>Something for everyone</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 gambar REVENGER-->
+      <div class="container-fluid mt-3 pb-3">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="slides-with-controls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <!-- <div class="carousel-item active" data-bs-interval="false"> -->
+                  <div class="row no-gutter d-flex justify-content-center">
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n1.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n2.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <!-- <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2 d-md-flex d-none"> -->
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n3.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n4.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n5.png" class="card-img-top" alt="..." />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row no-gutter d-flex justify-content-center">
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n6.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n7.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n8.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6 pe-2">
+                      <img src="disney/n9.png" class="card-img-top" alt="..." />
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-6">
+                      <img src="disney/n10.png" class="card-img-top" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#slides-with-controls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#slides-with-controls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- logo disney pixar , dkk -->
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="col-md-12 text-center">
+            <img class="img-fluid" src="disney/dis.png" alt="" />
+          </div>
+        </div>
+
+        <div class="container mb-2">
+          <div class="row">
+            <div class="col text-center">
+              <button type="button" class="btn btn-light rounded-pill btn-lg"><strong>Sign Up Now</strong></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Lainnya Dari Disney -->
+    <div class="container-fluid grey pb-4">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="col-md-12 text-center mb-4">
+            <h2>Lainnya Dari Disney</h2>
+          </div>
+
+          <!-- 2 video -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mb-5">
+                <div class="card">
+                  <div class="ratio ratio-16x9">
+                    <img src="disney/lain1.png" alt="" />
+                  </div>
+
+                  <div class="card-body">
+                    <h6>MELAMBANGKAN DUNIA DARI AVATAR: THE WAY OF WATER DENGAN MOBILE DAN VIDEO CALL WALLPAPER! Sebuah syair untuk Pandora yang akan mengeluarkan inner Na’vi dalam dirimu.</h6>
+
+                    <br />
+                    <h6>OH MY DISNEY</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="ratio ratio-16x9">
+                    <img src="disney/lain2.png" alt="" />
+                  </div>
+
+                  <div class="card-body">
+                    <h6>MASUKI DINASTI YANG BARU DENGAN MOBILE DAN VIDEO CALL WALLPAPER TERBARU DARI MARVEL STUDIOS’ ANT-MAN AND THE WASP: QUANTUMANIA Bersiap untuk menjadi subatomik.</h6>
+                    <br />
+                    <h6>OH MY DISNEY</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Film film baru kata nya aja -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="col-md-12 text-center mb-4">
+            <h2>Film-film baru yang akan datang</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Film film baru -->
+    <div class="container pb-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-6 p-3">
+          <div class="thumbnail">
+            <a href="" target="_blank">
+              <img src="disney/movies/f1.png" alt="Lights" style="width: 100%" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 p-3">
+          <div class="thumbnail">
+            <a href="" target="_blank">
+              <img src="disney/movies/f2.png" alt="Nature" style="width: 100%" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 p-3">
+          <div class="thumbnail">
+            <a href="" target="_blank">
+              <img src="disney/movies/f3.png" alt="Fjords" style="width: 100%" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 p-3">
+          <div class="thumbnail">
+            <a href="" target="_blank">
+              <img src="disney/movies/f4.png" alt="Fjords" style="width: 100%" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- oh my disney kata nya ja -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="col-md-12 text-center text-danger">
+            <h2 class="oh">OH MY</h2>
+            <h1 class="oh">DISNEY</h1>
+            <h2>Staff Picks</h2>
+            <h5 class="text-dark">The most magical toys, clothing and collectibles that we love right now</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OH MY DISNEY STAFF -->
+    <div class="container-fluid mt-3 pb-3">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div id="slides-with-controls1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container-fluid">
+                  <div class="row no-gutter">
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh1.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3 btn-lg">BUY NOW</a>
+                          <h6 class="card-text">Marvel Guardian of the Galaxy</h6>
+                          <h6>Dancing Groot Charm</h6>
+                          <strong>Rp 950,000.00</strong>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh2.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3">BUY NOW</a>
+                          <h6 class="card-text">Marvel Guardian of Galaxy Rocket</h6>
+                          <h6>Racoon Charm</h6>
+                          <strong>Rp 1,190,000.00</strong>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh3.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3">BUY NOW</a>
+                          <h6 class="card-text">Marvel Guardian of Galaxy</h6>
+                          <h6>Cassette Tape Dangle Charm</h6>
+                          <strong>Rp 1,190,000.00</strong>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh4.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3">BUY NOW</a>
+                          <h6 class="card-text">Marvel Captain America Magnetic</h6>
+                          <h6>Shield and Gaunlet</h6>
+                          <strong>Rp 249,000.00</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                  <div class="row no-gutter">
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh5.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3">BUY NOW</a>
+                          <h6 class="card-text">Marvel Spiderman Bata Sepatu Anak</h6>
+                          <h6>Laki-laki Series Avenger Vamper</h6>
+                          <strong> 399,900.00</strong>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh6.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3">BUY NOW</a>
+                          <h6 class="card-text">Marvel Hulk Roulette Plush Hulk</h6>
+                          <h6>Mainan Boneka Anak</h6>
+                          <strong>119,900.00</strong>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh7.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3">BUY NOW</a>
+                          <h6 class="card-text">MArvel's Eternal LEGO 76154 Deviant</h6>
+                          <h6>Mabush Building Kit</h6>
+                          <strong>356,000.00</strong>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-3 col-6 pe-3 text-center">
+                      <div class="card hilang">
+                        <img src="disney/oh8.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                          <a href="#" class="btn btn-default mb-3">BUY NOW</a>
+                          <h6 class="card-text">Marvel White T-shirt Couple Family</h6>
+                          <strong>279,900.00</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slides-with-controls1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slides-with-controls1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trending News and Videos kata aja-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="col-md-12 text-center mb-4">
+            <h2>Trending News and Videos</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trending News and Videos -->
+    <div class="container pb-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 p-3">
+          <div class="thumbnail">
+            <a href="" target="_blank">
+              <img src="disney/t1.png" alt="Lights" style="width: 100%" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 p-3">
+          <div class="thumbnail">
+            <a href="" target="_blank">
+              <img src="disney/t2.png" alt="Nature" style="width: 100%" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 p-3">
+          <div class="thumbnail">
+            <a href="" target="_blank">
+              <img src="disney/t3.png" alt="Fjords" style="width: 100%" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+
+      <div class="container pt-4">
+        <img src="disney/d.png" width="120" alt="" />
+        <section>
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">SHOP</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">OH MY DISNEY</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">DISNEY STYLE</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">DISNEY FAMILY</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">MOVIES</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">PARKS</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">MARVEL</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">STAR WARS</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">PIXAR</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">PRINCESS</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">GAMES</a>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <div class="container">
+        <section>
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">About Disney</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Support</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Investor Relations</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Careers</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Terms of Use</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Supplemental Privacy</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Policy for Indonesia</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Privacy Policy</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Classifications</a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark kecil" href="#!" role="button" data-mdb-ripple-color="dark">Interest Based Ads</a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3">©Disney ©Disney/Pixar ©tm Lucasfilm ltd. © Marvel, Disney Entertainment</div>
+      <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

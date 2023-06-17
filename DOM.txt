@@ -1,0 +1,4 @@
+
+inline : code terletak di index.html baris 95
+Internal : code terletak di trending.html (sebelum tutup body)
+External : code terletak di movies , javascript terletak di movies.js
